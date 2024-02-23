@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 650px;
+  background-color: #f8fafc;
+  border-radius: 10px;
+  height: 350px;
+  padding: 20px;
+  max-width: 345px;
+}
+
+@media screen and (min-width: 746px) {
+  .card-container {
+    padding-top: 44px;
+    padding-left: 64px;
+    padding-right: 64px;
+    max-width: 520px;
+  }
+}
+.heading {
+  font-size: 35px;
+  font-family: 'Roboto';
+  color: #323f4b;
+}
+
+question-container {
+  display: flex;
+  align-items: center ;
+}
+
+.capital-select {
+  width: 103px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #cbdced;
+  height: 48px;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-left: 8px;
+}
+
+.country {
+}
+.question {
+}
